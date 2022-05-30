@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn How to Sew 🧵</title>
+    <link rel="stylesheet" href="/styles/styles.css" />
+  </head>
+  <body>
+    <div class="titles">
+      <h1>Learn How To Sew</h1>
+      <hr />
+      <h2><em>Create your own wardrobe!</em></h2>
+    </div>
+    <img
+      src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/022/661/original/woman-sewing-while-sitting-on-chair-3738088-1536x1024.jpeg?1639397740"
+      alt="Sewing at Home"
+      width="500px"
+      class="sewing-at-home"
+    />
+    <p>
+      <strong>Benefits of learning how to sew:</strong>
+      <br />
+      Creating clothes that fit your specific body shape <br />
+      Making unique outfits that only you will have <br />
+      You will learn how to fix your other clothing making it last longer<br />
+      You can adapt your current clothes <br />
+      You don't need to spend loads of money on material, you can thrift for
+      fabric from used clothes
+    </p>
+    <button>Learn More</button>
+    <hr />
+    <p>
+      <span class="youtubers">
+        <a
+          href="https://www.youtube.com/c/withwendy"
+          target="_blank"
+          title="withWendy"
+          >withWendy</a
+        ><img
+          class="emoji-youtube"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/022/670/original/580b57fcd9996e24bc43c545.png?1639402504"
+          alt="Youtube Logo"
+          width="25"
+      /></span>
+      <span class="youtubers">
+        <a
+          href="https://www.youtube.com/c/KianaBonollo"
+          target="_blank"
+          title="KianaBonollo"
+          >KianaBonollo</a
+        ><img
+          class="emoji-youtube"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/022/670/original/580b57fcd9996e24bc43c545.png?1639402504"
+          alt="Youtube Logo"
+          width="25"
+      /></span>
+      <span class="youtubers">
+        <a
+          href="https://www.youtube.com/user/coolirpa"
+          target="_blank"
+          title="coolirpa"
+          >Coolirpa</a
+        ><img
+          class="emoji-youtube"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/022/670/original/580b57fcd9996e24bc43c545.png?1639402504"
+          alt="Youtube Logo"
+          width="25"
+        />
+      </span>
+    </p>
+    <hr />
+    <script>
+      function learnMore() {
+        let areYouReady = prompt(
+          "Are you ready to invest in making your own clothes?"
+        );
+        if (areYouReady === "yes") {
+          alert("Lets get sewing!");
+        } else {
+          alert("Enjoy shopping for your future lewks");
+        }
+      }
+      let learnMoreButton = document.querySelector("button");
+      learnMoreButton.addEventListener("click", learnMore);
+    </script>
+  </body>
+</html>
